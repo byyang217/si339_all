@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Climate of Earth Over Geologic Time</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link href="dist/css/lightbox.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+</head>
+<body>
+    <header>
+        <div class="skip"><a href="">Skip to Main Content</a></div>
+        <nav>
+            <ul>
+                <li><a class = "btn" href="index.html">Home Page</a></li>
+                <li><a class = "btn" href="weather.html">Weather</a></li>
+                <li><a class = "btn" href="climate.html">Climate Zones</a></li>
+                <li class="here"><a class = "btn" href="geologic.html">Geologic Climate - You are Here</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id = "main">
+        <h1>The Climate of Earth Over Geologic Time</h1>
+
+        <div class="contentE">
+            <p>Earth has had some interesting climates overall for the first few billion years of it's existence. In the Hadean Era, there was no atmosphere, there was frequent volcanic activity, and an impact with a Mars-sized planet whose debris would form into the Moon. In the Archean Era, oceans and the oxygen-rich atmosphere formed. There are many periods of Snowball Earth, the earliest of which was around 2 billion years ago.</p>
+        </div>
+
+        <div class="earth">
+                <a class = "item1" href="/images/Hadean.jpeg" target="_blank" data-lightbox="geo" data-title="Hadean Eon">
+                    <img src="/images/Hadean.jpeg" alt="Earth's climate during Hadean Eon">
+                </a>
+                <a  class = "item2" href="/images/Archean.png" target="_blank" data-lightbox="geo" data-title="Archean Eon">
+                    <img src="/images/Archean.png" alt="Archean Earth climate">
+                </a>
+                <a class = "item3" href="/images/Snowball.jpeg" target="_blank" data-lightbox="geo" data-title="Snowball Earth">
+                    <img src="/images/Snowball.jpeg" alt="Snowball Earth">
+                </a>
+        </div>
+        <!-- Needed to prevent footer overlap -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+
+    <footer><p>Copyright Brian Yang, 2022</p></footer>
+
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'positionFromTop': 200
+        });
+    </script>
+</body>
+</html>

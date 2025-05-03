@@ -1,0 +1,36 @@
+.earth{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+main img{
+    margin: 25px;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px){
+
+    .item2{
+        grid-row: 2/3;
+        grid-column: 1/span 2
+    }
+}
+
+@media screen and (min-width: 745px){
+    .earth{
+        align-items: end;
+    }
+
+    .item3{
+        grid-row: 3/4;
+        grid-column: 1/span 1;
+    }
+
+    .item1{
+        grid-row: 3/4;
+        grid-column: 2/span 1;
+    }
+}

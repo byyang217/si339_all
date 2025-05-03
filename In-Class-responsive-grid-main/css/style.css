@@ -1,0 +1,79 @@
+.grid > div{
+	max-height:40px;
+}
+
+.grid{
+	display: grid;
+	grid-row-gap: 5px;
+	grid-column-gap: 5px;
+	grid-template-columns: 500px;
+
+	/* Play with: */
+	/* justify-content:; */
+	/* justify-items:;  */
+	/* align-items:; */
+	/* align-content:; */
+ }
+
+ 
+
+
+@media screen and (min-width: 776px){
+
+	body{
+		background-color: yellow;
+	}
+
+	.grid > div{
+		max-height:none;
+	}
+
+	/* Make this a two column grid. */
+	.grid{
+		display: grid;
+		grid-template-columns: auto auto;
+		
+		/* Play with: */
+		/* justify-content:; */
+		/* align-items:;  */
+
+
+		
+ 	}
+
+ 	.item1{
+ 		 /* Span the entire first row  */
+		
+		grid-column: 1/ span 2;
+ 	}
+	
+	.item2{
+		/* Start in row 2 and span 3 rows */
+		grid-row: 2 / span 3; 
+
+	}
+
+}
+@media screen and (min-width: 1120px){
+	body{
+		background-color: green;
+	}
+
+	/* Make this a three column grid using fr. */
+	.grid{
+
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto auto auto auto;
+	}
+	.item3{
+		/* Start in row 2 and span two rows 
+		
+		   Start in column 2 and span two columns */
+		   grid-column: 2/ span 2;
+
+		   grid-row: 2 / span 2;
+		/* What happens if you try to span 3 columns */
+	}
+
+	
+}

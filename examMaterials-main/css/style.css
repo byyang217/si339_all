@@ -1,0 +1,46 @@
+header, footer{
+    background-color: #cad0d8;
+    font-size: 35px;
+}
+
+li {
+    display: inline-block;
+    border: black 2px solid;
+}
+
+/* header li:first-child{
+    margin-left: 50px;
+} */
+
+footer li{
+    margin-left: 100px;
+}
+
+div {
+    width: 19%;
+    text-align: center;
+    border: 3px black solid;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+div:hover {
+    border: 20px red solid;
+}
+
+.special {
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+div:nth-child(even){
+    border: 10px green dashed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div:last-child {
+    font-family: 'Times New Roman';
+    background-color: yellow;
+}

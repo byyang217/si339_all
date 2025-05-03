@@ -1,0 +1,26 @@
+li:nth-child(even) {
+    background-color: #376F70;
+}
+
+li:nth-child(odd) {
+    background-color: #BEEEEF;
+}
+
+li:nth-child(10) {
+    margin-bottom: 50px;
+}
+
+img {
+    border: black 5px solid;
+    margin: 10px;
+    display: inline;
+    padding: 9px red;
+}
+
+img:hover {
+    box-shadow: 10px 10px #376F70;
+}
+
+img:active {
+    box-shadow: 10px 10px #376F70;
+}
